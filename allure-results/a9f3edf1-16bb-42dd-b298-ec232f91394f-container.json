@@ -1,0 +1,1 @@
+{"uuid":"a9f3edf1-16bb-42dd-b298-ec232f91394f","name":"Register Page Test","children":["ab316bc4-7627-4a95-b1f7-41fe9df2be2f"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1778747589271,"stop":1778747596546}],"afters":[],"start":1778747589193,"stop":1778747601615}

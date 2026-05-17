@@ -1,0 +1,46 @@
+<suite name="E-Commerce Application Test Regression Suite" verbose="4"
+	thread-count="5" parallel="tests">
+
+
+	<test name="Login Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.Tests.LoginPageTest" />
+		</classes>
+	</test>
+
+
+	<!--<test name="Accounts Page Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.qa.opencart.Tests.AccountsPageTest" />
+		</classes>
+	</test>-->
+
+	<test
+		name="Search Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.Tests.SearchResultTest" />
+		</classes>
+	</test>
+
+
+	<!--<test name="ProductInfo Page Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.qa.opencart.Tests.ProductInfoTest" />
+		</classes>
+	</test>-->
+
+
+<!--	<test name="Register Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.Tests.RegisterpageTest" />
+		</classes>
+	</test>-->
+
+
+</suite>	
+
