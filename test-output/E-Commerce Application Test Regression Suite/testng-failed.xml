@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [E-Commerce Application Test Regression Suite]" verbose="4">
-  <test thread-count="5" parallel="tests" name="Search Page Test(failed)" verbose="4">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" parallel="tests" name="ProductInfo Page Test(failed)" verbose="4">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.qa.opencart.Tests.SearchResultTest">
+      <class name="com.qa.opencart.Tests.ProductInfoTest">
         <methods>
-          <include name="SearchResultsetup"/>
+          <include name="getCompleteInfoTest"/>
+          <include name="ProductInfosetup"/>
+          <include name="GetImagescountTest"/>
           <include name="setup"/>
+          <include name="GetHeaderTest"/>
           <include name="Attachscreenshot"/>
-          <include name="getproductAmountTest"/>
-          <include name="SearchProductTest"/>
         </methods>
-      </class> <!-- com.qa.opencart.Tests.SearchResultTest -->
+      </class> <!-- com.qa.opencart.Tests.ProductInfoTest -->
     </classes>
-  </test> <!-- Search Page Test(failed) -->
-  <test thread-count="5" parallel="tests" name="Login Page Test(failed)" verbose="4">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.qa.opencart.Tests.LoginPageTest">
-        <methods>
-          <include name="getPageTitleTest"/>
-          <include name="setup"/>
-          <include name="loginPageTest"/>
-          <include name="Attachscreenshot"/>
-          <include name="checkforggotlinkexistTest"/>
-          <include name="GetpageurlTest"/>
-          <include name="isheaderexistTest"/>
-        </methods>
-      </class> <!-- com.qa.opencart.Tests.LoginPageTest -->
-    </classes>
-  </test> <!-- Login Page Test(failed) -->
+  </test> <!-- ProductInfo Page Test(failed) -->
 </suite> <!-- Failed suite [E-Commerce Application Test Regression Suite] -->

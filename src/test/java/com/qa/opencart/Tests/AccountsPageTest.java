@@ -18,7 +18,7 @@ public class AccountsPageTest extends BaseTest {
 		
 		// before going to My Account page first we have to  to Login
 		
-	//	AccPage=new AccountsPage(driver);
+	
 		
 		AccPage=lp.dologin(prop.getProperty("username"), prop.getProperty("password"));
 		
