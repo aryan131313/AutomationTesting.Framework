@@ -32,7 +32,7 @@ public class SearchResultTest extends BaseTest {
     public void getproductAmountTest() {
     	
     	String productAmountis=productinfopage.getProductAmount();
-    	Assert.assertEquals(productAmountis, "2,000.00");
+    	Assert.assertEquals(productAmountis, "$2,000.00");
     }
 
 }
