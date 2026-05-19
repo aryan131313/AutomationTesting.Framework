@@ -20,6 +20,7 @@ public class RegisterpageTest extends BaseTest{
 		rp.userRegistration("Aryan", "Kapila", StringUtils.GenerateEmail(), "8580797695", "Selenium@1234", "yes");
 		
 		String successmsgtext=rp.successmsg();
+		System.out.println("Actual Success Message is : " + successmsgtext);
 		Assert.assertTrue(successmsgtext.equals("Your Account Has Been Created!"));
 	}
 

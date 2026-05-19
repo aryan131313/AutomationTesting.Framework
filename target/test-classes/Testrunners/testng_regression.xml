@@ -11,7 +11,7 @@
 
 
 	<test name="Accounts Page Test">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.qa.opencart.Tests.AccountsPageTest" />
 		</classes>
@@ -27,7 +27,7 @@
 
 
 	<test name="ProductInfo Page Test">
-		<parameter name="browser" value="Firefox" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.Tests.ProductInfoTest" />
 		</classes>
@@ -35,7 +35,7 @@
 
 
 	<test name="Register Page Test">
-		<parameter name="browser" value="Edge" />
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.Tests.RegisterpageTest" />
 		</classes>
